@@ -1,0 +1,67 @@
+1. Print and scan with pointer:
+"%p" represent pointer;
+&v is address of variable v (that can be stored in a pointer)
+Input:
+random integer n < 1000000
+Output:
+address of a variable that have value n
+
+2. Read pointer:
+Input: 
+a pointer of a variable and its type (float, int, double)
+Output:
+value of the variable that pointer point to
+
+3. Access a pointer property and functions:
+"->"
+Given a structure:
+
+struct sinhvien{
+    char id[9];
+    char name[100];
+};
+
+write a function "read" that receive a pointer of sinhvien and print the id and name of that struct.
+void read(sinhvien *sv){
+    /* get the id and name here*/
+    printf("%s\n%s", id, name)
+}
+
+4. Access an array given the pointer and array size:
+pointer arithmetic + and -
+
+5. Dynamic memory allocation:
+memloc/calloc 
+Input number n, n integer
+output n integer but reversed
+(memory max = n*10 bytes)
+
+6. Union and pointer
+given a double floating number
+#write an union to deconstruct that double
+
+7. C++ const pointer (reference):
+write a function that receive a sinhvien struct and print id and name using reference.
+
+8. Graph implementation using pointer:
+
+
+9*. Common structure using pointer:
+9. Queue:
+A loop or multiple loop
+
+10. Stack:
+What happen when a stack is full
+
+11. Tree:
+given 3 operator: 
+create a branch a current node with a value of A
+traverse to number n oldest child of that node.
+traverse to a node parent.
+prune that node then traverse to its parent.
+after each operator print what is the current node value.
+
+
+
+
+12. function pointer
